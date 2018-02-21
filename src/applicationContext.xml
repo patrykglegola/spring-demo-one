@@ -15,18 +15,18 @@
 
     <!-- define the dependency -->
     <bean id="myFortuneService"
-          class="com.luv2code.springdemo.HappyFortuneService">
+          class="com.luv2code.springdemo.services.HappyFortuneService">
 
     </bean>
     <bean id="myCoach"
-          class="com.luv2code.springdemo.TrackCoach">
+          class="com.luv2code.springdemo.coaches.impl.TrackCoach">
 
         <!-- set up constructor injection -->
         <constructor-arg ref="myFortuneService"/>
     </bean>
 
     <bean id="myCricketCoach"
-          class="com.luv2code.springdemo.CricketCoach">
+          class="com.luv2code.springdemo.coaches.impl.CricketCoach">
 
         <!-- set up a setter injection -->
         <property name="fortuneService" ref="myFortuneService" />
