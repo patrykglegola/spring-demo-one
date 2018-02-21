@@ -15,7 +15,7 @@
 
     <!-- define the dependency -->
     <bean id="myFortuneService"
-          class="com.luv2code.springdemo.services.HappyFortuneService">
+          class="com.luv2code.springdemo.services.SadFortuneService">
 
     </bean>
     <bean id="myCoach"
