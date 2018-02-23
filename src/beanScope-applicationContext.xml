@@ -11,7 +11,7 @@
 
     <!-- define the dependency -->
     <bean id="myFortuneService"
-          class="com.luv2code.springdemo.services.SadFortuneService">
+          class="com.luv2code.springdemo.services.RandomFortuneService">
     </bean>
 
     <!-- Default scope is singleton if we do not declare any. We can change it by adding/editing the "scope" argument. -->

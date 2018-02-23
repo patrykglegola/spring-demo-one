@@ -4,17 +4,18 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-public class SadFortuneService implements FortuneService {
+public class RandomFortuneService implements FortuneService {
 
     private Random randomValuesGenerator;
     private List<String> fortunes;
 
-    public SadFortuneService() {
+    public RandomFortuneService() {
         fortunes = new ArrayList<>();
         randomValuesGenerator = new Random();
         fortunes.add("Today is your bad day!");
-        fortunes.add("Today will be awful!");
+        fortunes.add("Today is your good day!!");
         fortunes.add("Today is your unlucky day!");
+        fortunes.add("Today is your lucky day!");
     }
 
     @Override
