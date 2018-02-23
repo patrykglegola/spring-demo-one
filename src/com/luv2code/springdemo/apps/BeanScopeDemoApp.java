@@ -3,9 +3,6 @@ package com.luv2code.springdemo.apps;
 import com.luv2code.springdemo.coaches.Coach;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-/**
- * Created by Patryk on 23.02.2018.
- */
 public class BeanScopeDemoApp {
 
     public static void main(String[] args) {
